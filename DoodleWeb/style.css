@@ -1,0 +1,172 @@
+body{
+	overflow: hidden;
+}
+header nav{
+	top: 0;
+	padding-left: 1%;
+	font-family: name;
+	font-weight: bolder;
+	font-size: 40px;
+	float: left;
+	color: #000;
+}
+#loginbox{
+	width: 400px;
+	max-height: 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+#image{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -15%;
+	left: calc(50% - 50px);
+}
+h1{
+	margin: 0;
+	padding: 20px;
+	color: #000;
+	text-align: center;
+	font-size: 30px;
+}
+#loginbox input{
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #fad;
+}
+#loginforms .fa-envelope{
+	position: absolute;
+	top: 121px;
+	left: 90px;
+}
+#registerform .fa-user{
+	position: absolute;
+	top: 121px;
+	left: 90px;
+}
+#registerform .fa-envelope{
+	position: absolute;
+	top: 158px;
+	left: 90px;
+}
+#loginform .fa-envelope{
+	position: absolute;
+	top: 157px;
+	left: 90px;
+}
+#registerform .fa-graduation-cap{
+	position: absolute;
+	top: 190px;
+	left: 90px;
+}
+#loginform .fa-user{
+	position: absolute;
+	top: 25.5%;
+	left: 90px;
+}
+#registerform .fa-phone-square{
+	position: absolute;
+	top: 210px;
+	left: 90px;
+}
+#registerform .fa-calendar{
+	position: absolute;
+	top: 255px;
+	left: 90px;
+}
+#registerform .fa-address-book{
+	position: absolute;
+	top: 300px;
+	left: 90px;
+}
+#registerform .fa-crosshairs{
+	position: absolute;
+	top: 330px;
+	left: 90px;
+}
+#form{
+	position: relative;
+	z-index: 1;
+	background: rgba(7, 40, 165, 0.7);
+	max-width: 340px;
+	max-height: 350px;
+	margin: 0 auto 75px;
+	padding: 45px;
+	top: -10%;
+	text-align: center;
+	background: transparent;
+	border: 2px solid;
+	box-shadow: 10px 10px 5px #000F55;
+}
+#form input{
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 75%;
+	margin: 0 0 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding-left: 29px;
+}
+#form select{
+	font-family: "Roboto", sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 75%;
+	margin: 0 0 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+	padding-left: 29px;
+}
+#form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 75%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+#form button:hover,#form button:active{
+	background: #43A047;
+}
+#form #message{
+	margin: 15px 0 0;
+	color: #000;
+	font-size: 18px;
+}
+#form #message a{
+	color: #4CAF50;
+	text-decoration: none;
+	font-size: 20px;
+}
+#form #registerform{
+	display: none;
+}
+#form #submit{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 75%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+	right: 2%;
+	font-weight: bold;
+}
+@font-face{
+			font-family: "name";
+			src: url("Nightmare Codehack.otf")
+}

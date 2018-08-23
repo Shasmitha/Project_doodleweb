@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>update</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+	<script src="animate.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="session.js"></script>
+</head>
+<body onload="jqueryfun()" style="background: url(images3.jpg); background-position: center;
+	background-size: cover;">
+	<header>
+		<nav>DoodleWeb</nav>
+	</header>
+	<div id="loginbox">
+		<div id="form">
+		<form id="loginforms">
+			<img src="login1.jpg" id="image">
+			<h1>Your Profile</h1>
+			 <table id=profiletable border="0" height="5px">
+                <tr><td><p id="alter_table">Username</p></td><td></td></tr>
+                <tr><td><p id="alter_table">Email Id</p></td><td></td></tr>
+                <tr><td><p id="alter_table">Degree</p></td><td></td></tr>
+                <tr><td><p id="alter_table">Phone No</p></td><td></td></tr>
+                <tr><td><p id="alter_table">Age</p></td><td></td></tr>
+                <tr><td><p id="alter_table">Address</p></td><td></td></tr>
+                <tr><td><p id="alter_table">City</p></td><td></td></tr></p>
+            </table>
+			<button><a href="##" style="text-decoration: none;">Edit</a></button>
+		</form>
+		<form id="registerform" method="post" action="update.php">
+			<img src="login1.jpg" id="image">
+			<h1>Profile Update</h1>
+			<i class="fa fa-user" aria-hidden="true" style="color: #000;"></i>&nbsp;<input type="text" name="updatename" placeholder="&nbsp;&nbsp;Username"></br>
+			<i class="fa fa-envelope" aria-hidden="true" style="color: #000;"></i>&nbsp;<input type="email" name="updateemail" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" placeholder="&nbsp;&nbsp;Email Id" required/></br>
+			<i class="fa fa-graduation-cap" aria-hidden="true" style="color: #000;"></i>&nbsp;<input type="text" name="updatedegree" placeholder="&nbsp;&nbsp;Degree"></br>
+			<i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;<input type="tel" name="updatephnno" placeholder="&nbsp;&nbsp;Phone No"></br>
+			<i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;<input type="number" name="updateage" placeholder="&nbsp;&nbsp;Age"></br>
+			<i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;<input type="text" name="updateaddress" placeholder="&nbsp;&nbsp;Address"></br>
+			<i class="fa fa-crosshairs" aria-hidden="true"></i>&nbsp;<input type="text" name="updatecity" placeholder="&nbsp;&nbsp;City"></br>
+			<button>Update</button>
+		</form>
+		</div>
+	</div>
+<footer>
+	<p>Powered By DoodleWeb</p>
+</footer>
+</body>
+</html>

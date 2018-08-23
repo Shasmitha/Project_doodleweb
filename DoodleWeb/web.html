@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+	<script src="out1.js"></script>
+</head>
+<body style="background: url(images3.jpg); background-position: center;
+	background-size: cover;">
+	<header>
+		<nav>DoodleWeb</nav>
+	</header>
+	<div id="loginbox">
+		<div id="form">
+		<img src="login.jpg" id="image">
+		<form id="loginforms" action="login.php" method="post">
+			<h1>LOGIN</h1>
+			<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;<input type="email" name="loginemail" placeholder="&nbsp;&nbsp;Enter Your Mail Id" value="" required="textcolor" />
+			<input type="submit" name="submit" id="submit" value="Login" onclick="sessionData()">
+			<p id="message">Not Registered?&nbsp;&nbsp;<a href="##"> Register</a></p>
+		</form>
+		<form id="registerform" method="post" action="register.php">
+			<h1>Register</h1>
+			<i class="fa fa-user" aria-hidden="true" style="color: #000;"></i>&nbsp;<input type="text" name="name" placeholder="&nbsp;&nbsp;Username"></br>
+			<i class="fa fa-envelope" aria-hidden="true" style="color: #000;"></i>&nbsp;<input type="email" name="email" placeholder="&nbsp;&nbsp;Email Id" required="autofocus"/></br>
+			<input type="submit" name="submit" id="submit" value="Register"><a href="##" style="text-decoration: none;"></a>
+			<p id="message">Already Registered?&nbsp;&nbsp;<a href="##"> Login</a></p>
+		</form>
+	</div>
+</div>
+<footer>
+	<p>Powered By DoodleWeb</p>
+</footer>
+</body>
+</html>
+
+
